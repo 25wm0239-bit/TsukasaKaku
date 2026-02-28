@@ -47,7 +47,7 @@
 +  Environment: Windows (Visual Studio 2022)
 
 ## 5. 実行結果（Experimental Results）
-
+本システムを実行した結果，従来手法で作成した元の投影画像（図3）の自動補正が可能になりました．
 
 
 
