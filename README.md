@@ -8,6 +8,9 @@
 
 これらの問題を解決するために，ArUcoマーカーを用いた3次元姿勢推定によりプロジェクタとディスプレイの相対位置を自動計測し，それに基づいて投影画像を自動補正するシステムを開発しました．これにより，従来手動で行っていた投影位置調整を自動化し，ノイズが発生しやすい糸配置においても正確な画像投影を可能にしました．
 
+<img width="2496" height="1653" alt="Image" src="https://github.com/user-attachments/assets/6b452d17-6d06-445b-bf6b-6e6a00585126" />
+システム概要図
+
 ## 2. 主な機能（Key Features）
 + 3次元位置関係の自動計測：プロジェクタとディスプレイの上部にそれぞれ貼り付けたArUcoマーカーをカメラで撮影し，プロジェクタとディスプレイ間の回転移動を含めた3次元位置関係を推定
 + 3次元位置関係の微調整UI：ArUcoマーカー由来の誤差を吸収するため，3次元位置関係や矩形画像の長さ・幅などを微調整
@@ -27,9 +30,6 @@
 ├── results/            
 │   └── projImg_threads_tuned.bmp                # 微調整後の矩形画像の描画位置を示す画像
 │   └── projImg_threads_directional_filtered.bmp # 補正後の投影画像
-├── imgs/                   # README添付用画像
-│   └── システム概要図
-│   └── 微調整UIイメージ図
 └── README.md               # 本ファイル
 ```
 
@@ -41,8 +41,7 @@
 +  Environment: Windows (Visual Studio 2022)
 
 ## 5. 実行結果（Experimental Results）
-!["代替テキスト"]("imgs/syetemOverview.png")
-!["代替テキスト"]("imgs/syetemOverview.png")
+<img width="1601" height="1038" alt="Image" src="https://github.com/user-attachments/assets/7a6d4e23-0727-41bf-8a32-d979efaf6b55" />
 
 
 
