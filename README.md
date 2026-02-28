@@ -41,8 +41,8 @@
 +  Environment: Windows (Visual Studio 2022)
 
 ## 5. 実行結果（Experimental Results）
-!["代替テキスト"]("imgs/システム概要図.png")
-!["代替テキスト"]("imgs/微調整UIイメージ図.png")
+!["代替テキスト"]("imgs/syetemOverview.png")
+!["代替テキスト"]("imgs/syetemOverview.png")
 
 
 
