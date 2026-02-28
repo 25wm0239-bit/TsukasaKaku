@@ -6,10 +6,10 @@
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/2676090f-660b-4da5-916a-2122b8b2f7bc" width=75%/>
-  <p>
+  <p><b>
     図1：糸を用いたボリュームディスプレイ<br>
     （左：投影の様子，中央：正面から見た画像"G"と表示，左：側面から見た画像"7"と表示）
-  </p>
+  </b></p>
 </div>
 
 従来は，**投影位置の調整を手作業**で行う必要がありましたが，要求精度が高いうえ，多大な時間を要するという問題がありました．さらに，プロジェクタとディスプレイの位置関係によっては，各糸に投影される矩形画像同士が重なり，ノイズが発生します．そのため，**糸の配置が制限**され，表示に必要な本数の糸を全て配置できない場合がありました．
@@ -18,7 +18,7 @@
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/6b452d17-6d06-445b-bf6b-6e6a00585126" width="50%">
-  <p>図2：投影画像自動補正システムの概要図</p>
+  <p><b>図2：投影画像自動補正システムの概要図</b></p>
 </div>
 
 ## 2. 主な機能（Key Features）
@@ -27,7 +27,7 @@
 + **投影画像の自動補正**：微調整後のパラメータに基づき，従来手法で作成した投影画像を自動補正
 <div align="center">
   <img src="https://github.com/user-attachments/assets/7a6d4e23-0727-41bf-8a32-d979efaf6b55" width=70% />
-  <p>図3：微調整UIのイメージ画像</p>
+  <p><b>図3：微調整UIのイメージ画像</b></p>
 </div>
 
 ## 3. ディレクトリ構造（Directory Structure）
