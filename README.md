@@ -44,6 +44,7 @@
 ├── results/            
 │   └── projImg_threads_tuned.bmp                # 微調整後の矩形画像の描画位置を示す画像
 │   └── projImg_threads_directional_filtered.bmp # 補正後の投影画像
+├── LICENSE                 # MITライセンス規定ファイル
 └── README.md               # 本ファイル
 ```
 
